@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ===========================
+    LOGIN FORM
+   =========================== */
+.login-body{
+    background-image:url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9naW58ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.login {
+  max-width: 420px;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  text-align: center;
+  color: #fff;
+}
+
+.login h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #ffdd00;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* labels */
+.login-form label {
+     font-size: 18px;
+  font-weight: bolder;
+  color: #ffdd00;
+  
+}
+
+/* input fields */
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-form input::placeholder {
+  color: #000000;
+}
+
+.login-form input:focus {
+  border-color: #ffdd00;
+  background: rgba(255,255,255,0.2);
+}
+
+
+
+/* button */
+.login-form button {
+  background: linear-gradient(135deg, #eee8ab, #59e7e7);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.login-form button:hover {
+  background: linear-gradient(135deg, #59e7e7, #eee8ab);
+  transform: translateY(-2px);
+}
+
+/* login link */
+.login-form p {
+  margin-top: 15px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.login-form a {
+  color: #ff9d00;
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.login-form a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+
+/* ===========================
+    SIGN FORM
+   =========================== */
+.signup-body{
+    background-image:url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMjBfM2RfbW9kZXJuX3dhdmVfY3VydmVfYWJzdHJhY3RfaGFsZnRvbmVfZ3JhZGllbl8xZTJhY2M3Mi1jZTU3LTQ0NjItOGQzNS1lOTI4YzI5NzcxMTdfMS5qcGc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sign{
+  max-width: 420px;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  text-align: center;
+  color: #fff;
+}
+
+.sign h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #0feaa5;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* labels */
+.signup-form label {
+    font-size: 18px;
+  font-weight: bolder;
+  color: #0feaa5;
+  
+}
+
+/* input fields */
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.signup-form input::placeholder {
+  color: #ffffff;
+}
+
+.signup-form input:focus {
+  border-color: #ff0000;
+  background: rgba(255,255,255,0.2);
+}
+.remember {
+  display: flex;
+  font-size: medium;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+}
+
+.remember input[type="checkbox"] {
+  accent-color: #0feaa5;
+  width: 16px;
+  height: 18px;
+}
+
+
+
+/* button */
+.signup-form button {
+  background: linear-gradient(135deg, #3000dd, #eee8ab);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.signup-form button:hover {
+  background: linear-gradient(135deg, #eee8ab, #3000dd);
+  transform: translateY(-2px);
+}
+
+/* login link */
+.signup-form p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.signup-form a {
+  color: #30ead7;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.signup-form a:hover {
+  color: #ff00fb;
+  text-decoration: underline;
+}
+
+/* ===========================
+    forget FORM
+   =========================== */
+.Forget-body{
+    background-image:url("https://plus.unsplash.com/premium_photo-1681487916420-8f50a06eb60e?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW4lMjBwYWdlfGVufDB8fDB8fHww&ixlib=rb-4.1.0&q=60&w=3000");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Forget {
+  max-width: 420px;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(1px);
+  border-radius: 16px;
+  padding: 40px 35px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  text-align: center;
+  color: #fff;
+}
+
+.Forget h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  color: #0d00c5;
+}
+
+.Forget-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* labels */
+.Forget-form label {
+  font-weight: bolder;
+  color: #0f7cea;
+  
+}
+
+/* input fields */
+
+.Forget-form input[type="email"],
+.Forget-form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.Forget-form input::placeholder {
+  color: #000000;
+}
+
+.Forget-form input:focus {
+  border-color: #ffea00;
+  background: rgba(255,255,255,0.2);
+}
+
+
+
+/* button */
+.Forget-form button {
+  background: linear-gradient(135deg,   #00e4f5, #f7ec6f);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.Forget-form button:hover {
+  background: linear-gradient(135deg, #f7ec6f, #00e4f5);
+  transform: translateY(-2px);
+}
+
