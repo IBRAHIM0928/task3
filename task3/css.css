@@ -200,8 +200,7 @@
   font-weight: 600;
   padding: 10px 0;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 14px;
   transition: 0.3s;
   font-size: 15px;
 }
@@ -301,7 +300,7 @@
 
 /* button */
 .Forget-form button {
-  background: linear-gradient(135deg,   #00e4f5, #f7ec6f);
+  background: linear-gradient(135deg,   #004ef5, #f7ec6f);
   color: #fff;
   font-weight: 600;
   padding: 10px 0;
@@ -313,8 +312,17 @@
 }
 
 .Forget-form button:hover {
-  background: linear-gradient(135deg, #f7ec6f, #00e4f5);
+  background: linear-gradient(135deg, #f7ec6f, #004ef5);
   transform: translateY(-2px);
 }
-
+.Forget-form p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.Forget-form a:hover {
+  color: #ff0048;
+  text-decoration: underline;
+}
 
